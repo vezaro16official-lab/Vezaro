@@ -1,0 +1,124 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vezaro is an early-stage concept for an AI-powered personal finance assistant.">
+  <title>Vezaro | Your AI Personal CFO</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0b1220;
+      color: #f3f6fc;
+      line-height: 1.6;
+    }
+    header {
+      padding: 24px 8%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #263246;
+    }
+    .logo { font-size: 26px; font-weight: 800; color: #65e0bd; }
+    header a, .button { color: #65e0bd; text-decoration: none; }
+    main { max-width: 1100px; margin: auto; padding: 75px 24px; }
+    .tag {
+      color: #65e0bd;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      font-size: 13px;
+    }
+    h1 { font-size: clamp(38px, 7vw, 68px); line-height: 1.1; margin: 20px 0; }
+    h1 span { color: #65e0bd; }
+    .intro { color: #bac6d9; font-size: 19px; max-width: 650px; }
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 22px;
+      border: 1px solid #65e0bd;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    h2 { font-size: 30px; margin-top: 70px; }
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 18px;
+      margin-top: 25px;
+    }
+    .card {
+      background: #131e30;
+      border: 1px solid #29374d;
+      border-radius: 14px;
+      padding: 24px;
+    }
+    .card h3 { color: #65e0bd; }
+    .card p, .muted { color: #bac6d9; }
+    footer {
+      border-top: 1px solid #263246;
+      padding: 25px 8%;
+      color: #bac6d9;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">vezaro.</div>
+    <a href="#vision">Our vision</a>
+  </header>
+
+  <main>
+    <p class="tag">An early-stage fintech concept</p>
+    <h1>Your money.<br>Your future.<br><span>More clarity.</span></h1>
+    <p class="intro">
+      Vezaro is our vision for an AI-powered Personal CFO that helps
+      people understand their finances, explore financial choices,
+      and make more informed decisions.
+    </p>
+    <a class="button" href="#vision">Explore our vision ↓</a>
+
+    <section id="vision">
+      <h2>Financial clarity, made personal.</h2>
+      <p class="muted">
+        Our goal is to bring budgeting, financial insights and
+        decision support together in one approachable experience.
+        These features are planned and are not yet available as a
+        working financial service.
+      </p>
+
+      <div class="features">
+        <article class="card">
+          <h3>01 · Understand</h3>
+          <p>Explore income, spending patterns and budgets in one place.</p>
+        </article>
+        <article class="card">
+          <h3>02 · Get insights</h3>
+          <p>Receive clear explanations of financial patterns and possible improvements.</p>
+        </article>
+        <article class="card">
+          <h3>03 · Plan ahead</h3>
+          <p>Compare savings goals and budget scenarios before making decisions.</p>
+        </article>
+      </div>
+    </section>
+
+    <section>
+      <h2>Building Vezaro</h2>
+      <p class="muted">
+        Vezaro is currently an early-stage concept. We are exploring
+        responsible AI, reliable calculations, and privacy-conscious
+        personal finance tools.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 Vezaro · Early-stage concept; features are under development.
+    Not financial advice.
+  </footer>
+</body>
+</html>
